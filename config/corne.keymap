@@ -123,7 +123,7 @@ label= "Nav"                               ;
 //                                     ┃           ┃    GIF    ┃    ADJ    ┃   ┃           ┃           ┃           ┃
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
         bindings = <
-   &trans     &kp LG(N1)  &kp LG(N2)  &kp LG(N3)  &kp LG(N4)  &kp LG(N5)     &kp LG(N6)    &kp LG(N7)   &kp LG(N8)   &kp LG(N9)    &trans     &trans
+   &trans     &kp LG(N1)  &kp LA(N7)  &kp LG(N3)  &kp LG(N4)  &kp LG(N5)     &kp LG(N6)    &kp LG(N7)   &kp LG(N8)   &kp LG(N9)    &trans     &trans
    &trans     &kp LCTRL   &kp LA(N4)  &kp LA(N5)  &kp LA(N6)  &trans         &kp MV_TB_L   &kp PREV_TAB &kp NEXT_TAB &kp MV_TB_R  &kp BSLH   &trans
    &trans     &kp LSHFT   &kp LA(N1)  &kp LA(N2)  &kp LA(N3)  &trans         &kp LS(LA(P)) &kp LA(P)    &kp LA(N)    &kp LS(LA(N)) &trans     &trans
                                      &trans      &trans      &trans         &trans        &trans       &trans
