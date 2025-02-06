@@ -42,7 +42,7 @@
         };
         combo_tab {
             timeout-ms = <30>;
-            key-positions = <13 14>;
+            key-positions = <14 15>;
             bindings = <&kp TAB>;
         };
         combo_bksp {
