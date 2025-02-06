@@ -75,10 +75,10 @@ label= "Base"                              ;
 //                                     ┃    DEL    ┃    TAB    ┃    SPC    ┃   ┃   ENTER   ┃           ┃   BSPC    ┃
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
         bindings = <
-   &kp Q      &kp W      &kp E       &kp R       &kp T          &kp Y    &kp U        &kp I       &kp O       &kp P
-   &mt HR1 A  &kp S      &kp D       &kp F       &kp G          &kp H    &kp J        &kp K       &kp L       &mt HR1 SEMI
-   &mt HR2 Z  &kp X      &kp C       &kp V       &kp B          &kp N    &kp M        &kp COMMA   &kp DOT     &mt HR2 FSLH
-                         &kp LGUI    &kp LALT    &mo 1          &kp SPACE  &mo 2      &mo 3
+   &trans    &kp Q      &kp W      &kp E       &kp R       &kp T          &kp Y    &kp U        &kp I       &kp O       &kp P         &trans
+   &trans    &mt HR1 A  &kp S      &kp D       &kp F       &kp G          &kp H    &kp J        &kp K       &kp L       &mt HR1 SEMI  &trans
+   &trans    &mt HR2 Z  &kp X      &kp C       &kp V       &kp B          &kp N    &kp M        &kp COMMA   &kp DOT     &mt HR2 FSLH  &trans
+                                    &kp LGUI    &kp LALT    &mo 1          &kp SPACE  &mo 2      &mo 3
             >;
                 };
 
@@ -99,10 +99,10 @@ label= "Sym/Num"                              ;
 //                                     ┃           ┃    TAB    ┃    SPC    ┃   ┃    DEL    ┃     0     ┃           ┃
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
         bindings = <
-   &kp ESC    &kp N7     &kp N8      &kp N9      &trans         &trans    &kp MINUS   &kp EQUAL  &kp GRAVE  &kp DEL
-   &kp LCTRL  &kp N4     &kp N5      &kp N6      &trans         &trans    &kp LBKT    &kp RBKT   &kp BSLH   &kp SQT
-   &kp LSHFT  &kp N1     &kp N2      &kp N3      &kp N0         &kp LEFT  &kp LPAR    &kp RPAR   &kp RIGHT  &trans
-                         &trans      &trans      &trans         &mo 4     &kp RSHFT  &kp RGUI
+   &trans     &kp ESC    &kp N7     &kp N8      &kp N9      &trans         &trans    &kp MINUS   &kp EQUAL  &kp GRAVE  &kp DEL     &trans
+   &trans     &kp LCTRL  &kp N4     &kp N5      &kp N6      &trans         &trans    &kp LBKT    &kp RBKT   &kp BSLH   &kp SQT     &trans
+   &trans     &kp LSHFT  &kp N1     &kp N2      &kp N3      &kp N0         &kp LEFT  &kp LPAR    &kp RPAR   &kp RIGHT  &trans     &trans
+                                    &trans      &trans      &trans         &mo 4     &kp RSHFT  &kp RGUI
                 >;
                 };
 
@@ -123,10 +123,10 @@ label= "Nav"                               ;
 //                                     ┃           ┃    GIF    ┃    ADJ    ┃   ┃           ┃           ┃           ┃
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
         bindings = <
-   &kp LG(N1)  &kp LG(N2)  &kp LG(N3)  &kp LG(N4)  &kp LG(N5)     &kp LG(N6)    &kp LG(N7)   &kp LG(N8)   &kp LG(N9)    &trans
-   &kp LCTRL   &kp LA(N4)  &kp LA(N5)  &kp LA(N6)  &trans         &kp MV_TB_L   &kp PREV_TAB &kp NEXT_TAB &kp MV_TB_R  &kp BSLH
-   &kp LSHFT   &kp LA(N1)  &kp LA(N2)  &kp LA(N3)  &trans         &kp LS(LA(P)) &kp LA(P)    &kp LA(N)    &kp LS(LA(N)) &trans
-                          &trans      &trans      &trans         &trans        &trans       &trans
+   &trans     &kp LG(N1)  &kp LG(N2)  &kp LG(N3)  &kp LG(N4)  &kp LG(N5)     &kp LG(N6)    &kp LG(N7)   &kp LG(N8)   &kp LG(N9)    &trans     &trans
+   &trans     &kp LCTRL   &kp LA(N4)  &kp LA(N5)  &kp LA(N6)  &trans         &kp MV_TB_L   &kp PREV_TAB &kp NEXT_TAB &kp MV_TB_R  &kp BSLH   &trans
+   &trans     &kp LSHFT   &kp LA(N1)  &kp LA(N2)  &kp LA(N3)  &trans         &kp LS(LA(P)) &kp LA(P)    &kp LA(N)    &kp LS(LA(N)) &trans     &trans
+                                     &trans      &trans      &trans         &trans        &trans       &trans
                 >;
         };
 
@@ -148,9 +148,9 @@ label= "Control"                               ;
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
             bindings = <
    &bt BT_CLR   &none        &none       &none       &none          &none         &none         &none         &none         &none
-   &kp C_VOL_DN &kp C_VOL_UP &kp C_PLAY  &none       &none          &none         &bt BT_SEL 4  &bt BT_SEL 5  &bt BT_SEL 6  &none
-   &none        &none        &none       &none       &none          &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &none
-                             &none       &none       &none          &none         &none         &none
+   &trans      &kp C_VOL_DN &kp C_VOL_UP &kp C_PLAY  &none       &none          &none         &bt BT_SEL 4  &bt BT_SEL 5  &bt BT_SEL 6  &none        &trans
+   &trans      &none        &none        &none       &none       &none          &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &none        &trans
+                                        &none       &none       &none          &none         &none         &none
             >;
                 };
 
@@ -171,10 +171,10 @@ label= "Movement"                             ;
 //                                     ┃           ┃ UNDO/SAVE ┃  SEL/MOV  ┃   ┃           ┃           ┃           ┃
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
             bindings = <
-   &none        &none        &none       &none             &none          &none           &none     &none     &none            &none
-   &kp LCTRL    &none        &none       &kp LS(LG(SPACE)) &none          &kp LEFT        &kp DOWN  &kp UP    &kp RIGHT       &none
-   &kp LSHFT    &none        &none       &none             &none          &kp LC(LA(LEFT)) &kp PG_DN &kp PG_UP &kp LC(LA(RIGHT)) &none
-                             &none       &none             &none          &none           &none     &none
+   &trans      &none        &none        &none       &none             &none          &none           &none     &none     &none            &none        &trans
+   &trans      &kp LCTRL    &none        &none       &kp LS(LG(SPACE)) &none          &kp LEFT        &kp DOWN  &kp UP    &kp RIGHT       &none        &trans
+   &trans      &kp LSHFT    &none        &none       &none             &none          &kp LC(LA(LEFT)) &kp PG_DN &kp PG_UP &kp LC(LA(RIGHT)) &none        &trans
+                                        &none       &none             &none          &none           &none     &none
             >;
                 };
 
@@ -183,9 +183,13 @@ label= "Movement"                             ;
 
         none_layer {
             bindings = <
-   &none        &none        &none       &none       &none          &none         &none         &none         &none         &none
-   &none        &none        &none       &none       &none          &none         &none         &none         &none         &none
-   &none        &none        &none       &none       &none          &none         &none         &none         &none         &none
+   &trans      &none        &none        &none       &none       &none          &none         &none         &none         &none         &none        &trans
+   &trans      &none        &none        &none       &none       &none          &none         &none         &none         &none         &none        &trans
+   &trans      &none        &none        &none       &none       &none          &none         &none         &none         &none         &none        &trans
+                                        &none       &none       &none          &none         &none         &none  &none       &none          &none         &none         &none         &none         &none        &trans
+   &trans      &none        &none        &none       &none       &none          &none         &none         &none         &none         &none        &trans
+   &trans      &none        &none        &none       &none       &none          &none         &none         &none         &none         &none        &trans
+                                        &none       &none       &none          &none         &none         &none  &none          &none         &none         &none         &none         &none
                              &none       &none       &none          &none         &none         &none
             >;
         };
