@@ -129,7 +129,7 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-&trans  &kp LG(N1)  &kp LA(N7)  &kp LG(N3)  &kp LG(N4)  &kp LG(N5)    &kp LG(N6)         &kp LG(N7)       &kp LG(N8)   &kp LG(N9)             &trans    &trans
+&trans  &kp LG(N1)  &kp LA(N7)  &kp LA(N8)  &kp LA(N9)  &kp LG(N5)    &kp LG(N6)         &kp LG(N7)       &kp LG(N8)   &kp LG(N9)             &trans    &trans
 &trans  &kp LCTRL   &kp LA(N4)  &kp LA(N5)  &kp LA(N6)  &trans        &kp LS(LC(PG_UP))  &kp LS(LC(TAB))  &kp LC(TAB)  &kp LS(LC(PAGE_DOWN))  &kp BSLH  &trans
 &trans  &kp LSHFT   &kp LA(N1)  &kp LA(N2)  &kp LA(N3)  &trans        &kp LS(LA(P))      &kp LA(P)        &kp LA(N)    &kp LS(LA(N))          &trans    &trans
                                 &trans      &trans      &trans        &trans             &trans           &trans
@@ -155,10 +155,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-&trans  &bt BT_CLR    &none         &none       &none  &none    &none         &none         &none         &none         &none  &trans
-&trans  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PLAY  &none  &none    &none         &bt BT_SEL 4  &bt BT_SEL 5  &bt BT_SEL 6  &none  &trans
-&trans  &none         &none         &none       &none  &none    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &none  &trans
-                                    &none       &none  &none    &none         &none         &none
+&trans  &bt BT_CLR    &none         &none                 &none                 &none    &none         &none         &none         &none         &none  &trans
+&trans  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &none    &none         &bt BT_SEL 4  &bt BT_SEL 5  &bt BT_SEL 6  &none  &trans
+&trans  &none         &none         &none                 &none                 &none    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &none  &trans
+                                    &none                 &none                 &none    &none         &none         &none
             >;
         };
 
@@ -181,10 +181,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-&trans  &none      &none  &none  &none              &none    &none             &none      &none      &none              &none  &trans
-&trans  &kp LCTRL  &none  &none  &kp LS(LG(SPACE))  &none    &kp LEFT          &kp DOWN   &kp UP     &kp RIGHT          &none  &trans
-&trans  &kp LSHFT  &none  &none  &none              &none    &kp LC(LA(LEFT))  &kp PG_DN  &kp PG_UP  &kp LC(LA(RIGHT))  &none  &trans
-                          &none  &none              &none    &none             &none      &none
+&trans  &none      &none             &none             &none              &none    &none             &none      &none      &none              &none  &trans
+&trans  &kp LCTRL  &none             &none             &kp LS(LG(SPACE))  &none    &kp LEFT          &kp DOWN   &kp UP     &kp RIGHT          &none  &trans
+&trans  &kp LSHFT  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)   &none    &kp LC(LA(LEFT))  &kp PG_DN  &kp PG_UP  &kp LC(LA(RIGHT))  &none  &trans
+                                     &none             &none              &none    &none             &none      &none
             >;
         };
 
